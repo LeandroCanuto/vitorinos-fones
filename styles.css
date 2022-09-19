@@ -1,0 +1,179 @@
+:root 
+{
+
+    --cor-branca : #ffff;
+
+}
+
+.cabecalho 
+{
+
+background-color: black;
+border-radius: 24px;
+box-shadow: 60px 20px #505250;
+margin-left: 10px ;
+margin-right: 10px;
+margin-top: 24px ;
+width: 1800px;
+}
+
+.banner 
+{
+
+    
+    margin-left: 24px ; 
+    width:  500px;
+    height: auto; 
+
+}
+
+.menu 
+{
+    
+    font-family:cursive ;
+    font-size: 25px;
+    margin-left: 20px; 
+    position: relative;
+    top: -30px ;
+    display: inline-block;   
+    color:#c8b7a6 ;
+    
+
+}
+
+.menu :hover {
+
+    color: #3180bd;
+
+}
+
+.menu a
+{
+
+    padding: 20px;
+    color:#c8b7a6;
+    text-shadow: 1px 1px #c8b7a6 ;
+    
+}
+
+
+.menu a:link , a:visited {
+
+color: #ffff;
+text-decoration: none;
+}
+
+
+.carrinho
+{
+    font-size: 30px;
+    margin-left:  1600px;
+    position:relative ;
+    top: -74px;
+    display: inline;
+    margin-top: 70px;
+    text-shadow: 1px 1px #c8b7a6 ;
+    background-color: black;
+
+    
+    
+}
+
+.carrinho a:link , a:visited {
+
+    color: #ffff;
+    text-decoration: none;
+}
+
+body
+{
+
+    background-color: #c8b7a6;
+    
+
+}
+
+
+
+.slider
+{
+    
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    top :80px;
+    left:150px;
+    margin-bottom: 50px;
+   
+    
+    
+}
+
+
+
+
+.contato
+
+{
+    
+    display: inline;
+    position: relative ;
+    top: -100px;
+    left:350px;
+    background-color: black;
+    
+}
+.institucional
+{
+    display: inline-block;
+    position: relative ;
+    left:750px;
+    top:-240px
+
+}
+
+.informacoes
+{
+    display: inline-block;
+    position: relative ;
+    left: 960px;
+    top: -240px ; 
+    
+
+}
+
+.institucional  ul,h2{
+
+    color: #ffff;
+    
+
+}
+
+.informacoes  ul,h2{
+
+    color: #ffff;
+    
+
+}
+.contato ul , h2{
+
+    color:#ffff
+}
+
+.rodape
+{
+
+    background-color: black;
+    box-shadow: 30px 10px #505250;
+    border-radius: 20px;
+    position:relative ;
+    left: -300px;       
+    margin-top: 200px;
+    padding-left: -400px;
+    padding-right: 180px;
+    height: 400px;
+    width: 1800px;
+    
+
+}
+
