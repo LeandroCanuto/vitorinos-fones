@@ -4,15 +4,22 @@
     --cor-branca : #ffff;
 
 }
+*{
+
+box-sizing: border-box;
+
+}
 
 .cabecalho 
 {
 
+overflow: hidden;
+
 background-color: black;
 border-radius: 24px;
-box-shadow: 60px 20px #505250;
-margin-left: 10px ;
-margin-right: 10px;
+box-shadow: 60px 30px  5px #505250;
+margin-left: 60px ;
+
 margin-top: 24px ;
 width: 1800px;
 }
@@ -89,27 +96,50 @@ body
 {
 
     background-color: #c8b7a6;
+    min-height: 100vh;
+
     
 
 }
 
 
-
-.slider
+.carrossel
 {
-    
-    border-radius: 25px;
-    overflow: hidden;
-    position: relative;
-    top :80px;
-    left:150px;
-    margin-bottom: 50px;
-   
-    
-    
+
+    position:relative;
+    left: 400px;
+    top: 80px ;
+    height: fit-content;
+    overflow: hidden ;
+    width: 50%;
+    box-shadow: 2px 2px 4px black;
+    background-color: #ffff;
+
+
+}
+
+.carrossel img{
+
+    justify-content: center;
+}
+
+.container
+{
+
+        display:flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
 }
 
 
+
+img{
+
+    object-fit: cover;
+    height: 550px;
+   
+ 
+}
 
 
 .contato
@@ -160,20 +190,17 @@ body
     color:#ffff
 }
 
-.rodape
-{
 
-    background-color: black;
-    box-shadow: 30px 10px #505250;
-    border-radius: 20px;
-    position:relative ;
-    left: -300px;       
-    margin-top: 200px;
-    padding-left: -400px;
-    padding-right: 180px;
-    height: 400px;
-    width: 1800px;
     
 
+
+.rodape img
+{
+    position: relative;
+    top: 300px;
+    left: 80px;
+    display:flex;
+    background-color: black;
+    border-radius: 24px;
 }
 

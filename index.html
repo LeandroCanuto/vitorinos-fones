@@ -9,7 +9,7 @@
     <title>Vitorino phones</title>
 </head>
     <header class="cabecalho">
-        <img src="assets\img\banner.png" class="banner"> </img>
+        <img src="\img\banner.png" class="banner"> </img>
          
         <div class="menu">
             <a href=""> &#127822; Início </a>
@@ -23,39 +23,27 @@
           </div>
         
     </header>
-<body class="corpo">
-   
-   <div >
-        <li class="slides">
-            <input type="radio" name="radio-btn" id="slide1" checked>
-            <input type="radio" name="radio-btn" id="slide2">
-            <input type="radio" name="radio-btn" id="slide3">
+<body>
+      
+        <div class ="carrossel"   >
+            <img src="\img\iphone4.png" id="img" alt="" onload="slide1()">       
             
-            <div class="slider">
-                <img src="assets\img\iphone1.png" alt="slide1">
-            </div>
-            <!--<div class="slide2">
-                <img src="assets\img\iphone2.png" alt="slide2">
-            </div>
-            <div class="slide3">
-                <img src="assets\img\iphone3.png" alt="slide3">
-            </div>
+            
+                
+            </div>            
+        </div>
+          
            
-            </div>
-                            
-            </div> -->
-            <!--<div class="navigation">
-                <label class="barra" for="slide1">Teste</label>
-                <label class="barra" for="slide2" ></label>
-                <label class="barra" for="slide3" ></label>
-               
+                        
 
-        </div>-->
-   </div>
+      
 </body>
 
 <footer  class="rodape">
-    <img src="assets\img\rodape.png" alt="rodape"></img>
+    <img src="\img\rodape.png" alt="rodape" class="rodapeImg"></img>
+    
+       
+    </section>
    <div class="contato">
         <h2>Contato</h2>
         <ul>
@@ -79,5 +67,25 @@
         <ul>Rastrear meu pedido</ul>
     </div>
     </footer>
-    <script type="text/javascript" src="index.js"></script>
+
+    <script>
+
+function slide1(){
+document.getElementById('img').src="img/iphone1.png"
+setTimeout("slide2()", 1500)
+}
+
+function slide2(){
+document.getElementById('img').src="img/iphone2.png"
+setTimeout("slide3()", 1500)
+}
+
+function slide3(){
+document.getElementById('img').src="img/iphone3.png"
+setTimeout("slide1()", 1500)
+}
+
+    </script>
+    
+    <!-- <script type="javascript" src="main.js"></script>  -->
 </html>
